@@ -1,0 +1,126 @@
+.jumbotron, .footer {
+  background: linear-gradient(60deg, #24aadb, #27dbb1);
+  animation: gradient 16s linear infinite;
+  animation-direction: alternate;
+  background-size: 200% 100%;
+  margin: 0;
+}
+
+#aboutMe, #myWork, #myMedia, #contactMe {
+  background: linear-gradient(60deg, #ff0000, #dbab27);
+  animation: gradient 16s linear infinite;
+  animation-direction: alternate;
+  background-size: 200% 100%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.footer {
+  padding: 20px;
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bgImg1 {
+  /* The image used */
+  background-image: url("/assets/bgImg.JPG");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgImg2 {
+  /* The image used */
+  background-image: url("/assets/IMG_4303.JPG");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgImg3 {
+  /* The image used */
+  background-image: url("/assets/IMG_3428.JPG");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgImg4 {
+  /* The image used */
+  background-image: url("/assets/IMG_4170.JPG");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgImg5 {
+  /* The image used */
+  background-image: url("/assets/IMG_3592.JPG");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-inner {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+}
+
+.externalLink {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-caption {
+  display: flex;
+  align-self: flex-end;
+}
+
+#btnContainer {
+  display: flex;
+  justify-content: end;
+  align-content: flex-end;
+  align-items: flex-end;
+}
