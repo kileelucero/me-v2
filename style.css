@@ -31,7 +31,7 @@
 
 .bgImg1 {
   /* The image used */
-  background-image: url("/assets/bgImg.JPG");
+  background-image: url("./assets/bgImg.JPG");
 
   /* Set a specific height */
   min-height: 500px;
@@ -45,7 +45,7 @@
 
 .bgImg2 {
   /* The image used */
-  background-image: url("/assets/IMG_4303.JPG");
+  background-image: url("./assets/IMG_4303.JPG");
 
   /* Set a specific height */
   min-height: 500px;
@@ -59,7 +59,7 @@
 
 .bgImg3 {
   /* The image used */
-  background-image: url("/assets/IMG_3428.JPG");
+  background-image: url("./assets/IMG_3428.JPG");
 
   /* Set a specific height */
   min-height: 500px;
@@ -73,7 +73,7 @@
 
 .bgImg4 {
   /* The image used */
-  background-image: url("/assets/IMG_4170.JPG");
+  background-image: url("./assets/IMG_4170.JPG");
 
   /* Set a specific height */
   min-height: 500px;
@@ -87,7 +87,7 @@
 
 .bgImg5 {
   /* The image used */
-  background-image: url("/assets/IMG_3592.JPG");
+  background-image: url("./assets/IMG_3592.JPG");
 
   /* Set a specific height */
   min-height: 500px;
