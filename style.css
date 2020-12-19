@@ -4,13 +4,16 @@
   animation-direction: alternate;
   background-size: 200% 100%;
   margin: 0;
+  text-shadow: .5px .5px black;
 }
 
-#aboutMe, #myWork, #myMedia, #contactMe, #randomBtn {
+#aboutMe, #myWork, #myMedia, #contactMe, #randomBtn, #imageView, #videoView {
   background: linear-gradient(60deg, #ff0000, #dbab27);
   animation: gradient 16s linear infinite;
   animation-direction: alternate;
   background-size: 200% 100%;
+  color:azure;
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2), 0 6px 20px 0 rgba(8, 8, 8, 0.2);
 }
 
 @keyframes gradient {
@@ -106,6 +109,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   align-content: center;
+  border-radius: .5rem;
 }
 
 .externalLink {
@@ -116,6 +120,7 @@
 .carousel-caption {
   display: flex;
   align-self: flex-end;
+  
 }
 
 #btnContainer {
@@ -130,3 +135,21 @@
   height: auto;
 }
 
+#arrayImages, #arrayVideos {
+  border-radius: .5rem;
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2), 0 6px 20px 0 rgba(8, 8, 8, 0.2);
+}
+
+#backBtn {
+  text-shadow: 1px 1px black;
+}
+
+.imgVid1 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+textarea {
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2), 0 6px 20px 0 rgba(8, 8, 8, 0.2);
+}
