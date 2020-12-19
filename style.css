@@ -6,7 +6,7 @@
   margin: 0;
 }
 
-#aboutMe, #myWork, #myMedia, #contactMe {
+#aboutMe, #myWork, #myMedia, #contactMe, #randomBtn {
   background: linear-gradient(60deg, #ff0000, #dbab27);
   animation: gradient 16s linear infinite;
   animation-direction: alternate;
@@ -124,3 +124,9 @@
   align-content: flex-end;
   align-items: flex-end;
 }
+
+#arrayImages {
+  width: 500px;
+  height: auto;
+}
+
