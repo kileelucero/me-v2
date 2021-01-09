@@ -8,7 +8,7 @@ $(document).ready(function () {
         $('#arrayVideos').hide();
         $('#randomBtn').show();
         var image = new Array();
-        image[0] = "./assets/bgImg.PNG";
+        image[0] = "./assets/KauaiEucalyptus_Small.JPG";
         image[1] = "./assets/mtnSunset_Small.JPG";
         image[2] = "./assets/moneyTree_Small.JPG";
         image[3] = "./assets/IMG_0073.JPG";
@@ -26,7 +26,7 @@ $(document).ready(function () {
         $('#arrayImages').attr('src', image[x]);
         $("#randomBtn").click(function () {
             var image = new Array();
-            image[0] = "./assets/bgImg.PNG";
+            image[0] = "./assets/KauaiEucalyptus_Small.JPG";
             image[1] = "./assets/mtnSunset_Small.JPG";
             image[2] = "./assets/moneyTree_Small.JPG";
             image[3] = "./assets/IMG_0073.JPG";
