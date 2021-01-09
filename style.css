@@ -33,7 +33,6 @@
 }
 
 .bgImg1 {
-  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -56,7 +55,6 @@
 }
 
 .bgImg2 {
-  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -79,9 +77,8 @@
 }
 
 .bgImg3 {
-  min-height: 500px;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -102,7 +99,6 @@
 }
 
 .bgImg4 {
-  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -125,7 +121,6 @@
 }
 
 .bgImg5 {
-  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -197,10 +192,4 @@
 
 textarea, input {
   box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2), 0 6px 20px 0 rgba(8, 8, 8, 0.2);
-}
-
-@media only screen and (max-width: 320px) {
-  .bgImg1,.bgImg2,.bgImg3,.bgImg4.bgImg5{
-    max-height: 516px;
-  }
 }
