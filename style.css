@@ -47,22 +47,14 @@
 }
 @media (max-width: 480px) {
   .bgImg1 {
-    background-image: url("./assets/KauaiEucalyptus_Small.JPG");
-    min-height: 250px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("./assets/KauaiEucalyptus_XSmall.JPG");
+    min-height: 320px;
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
   .bgImg1 {
     background-image: url("./assets/KauaiEucalyptus_Small.JPG");
-    min-height: 250px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    min-height: 320px;
   }
 }
 @media (min-width: 1025px) {
@@ -80,22 +72,14 @@
 }
 @media (max-width: 480px) {
   .bgImg2 {
-    background-image: url("./assets/kauaiSunset_Small.JPG");
-    min-height: 250px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("./assets/kauaiSunset_XSmall.JPG");
+    min-height: 320px;
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
   .bgImg2 {
     background-image: url("./assets/kauaiSunset_Small.JPG");
-    min-height: 250px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    min-height: 320px;
   }
 }
 @media (min-width: 1025px) {
@@ -113,22 +97,14 @@
 }
 @media (max-width: 480px) {
   .bgImg3 {
-    background-image: url("./assets/kauaiPineapple_Small.JPG");
-    min-height: 250px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("./assets/kauaiPineapple_XSmall.JPG");
+    min-height: 320px;
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
   .bgImg3 {
     background-image: url("./assets/kauaiPineapple_Small.JPG");
-    min-height: 250px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    min-height: 320px;
   }
 }
 @media (min-width: 1025px) {
@@ -146,22 +122,14 @@
 }
 @media (max-width: 480px) {
   .bgImg4 {
-    background-image: url("./assets/kauaiCove_Small.JPG");
-    min-height: 250px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("./assets/kauaiCove_XSmall.JPG");
+    min-height: 320px;
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
   .bgImg4 {
     background-image: url("./assets/kauaiCove_Small.JPG");
-    min-height: 250px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    min-height: 320px;
   }
 }
 @media (min-width: 1025px) {
@@ -179,22 +147,14 @@
 }
 @media (max-width: 480px) {
   .bgImg5 {
-    background-image: url("./assets/kauaiFlower_Small.JPG");
-    min-height: 250px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("./assets/kauaiFlower_XSmall.JPG");
+    min-height: 320px;
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
   .bgImg5 {
     background-image: url("./assets/kauaiFlower_Small.JPG");
-    min-height: 250px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    min-height: 320px;
   }
 }
 @media (min-width: 1025px) {
