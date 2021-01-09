@@ -33,73 +33,118 @@
 }
 
 .bgImg1 {
-  /* The image used */
-  background-image: url("./assets/bgImg.PNG");
-
-  /* Set a specific height */
   min-height: 500px;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media (max-width: 480px) {
+  .bgImg1 {
+    background-image: url("./assets/KauaiEucalyptus_Small.JPG");
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .bgImg1 {
+    background-image: url("./assets/KauaiEucalyptus_Small.JPG");
+  }
+}
+@media (min-width: 1025px) {
+  .bgImg1 {
+    background-image: url("./assets/bgImg.PNG");
+  }
 }
 
 .bgImg2 {
-  /* The image used */
-  background-image: url("./assets/IMG_4303.PNG");
-
-  /* Set a specific height */
   min-height: 500px;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media (max-width: 480px) {
+  .bgImg2 {
+    background-image: url("./assets/kauaiSunset_Small.JPG");
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .bgImg2 {
+    background-image: url("./assets/kauaiSunset_Small.JPG");
+  }
+}
+@media (min-width: 1025px) {
+  .bgImg2 {
+    background-image: url("./assets/IMG_4303.PNG");
+  }
 }
 
 .bgImg3 {
-  /* The image used */
-  background-image: url("./assets/IMG_3428.PNG");
-
-  /* Set a specific height */
   min-height: 500px;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media (max-width: 480px) {
+  .bgImg3 {
+    background-image: url("./assets/kauaiPineapple_Small.JPG");
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .bgImg3 {
+    background-image: url("./assets/kauaiPineapple_Small.JPG");
+  }
+}
+@media (min-width: 1025px) {
+  .bgImg3 {
+    background-image: url("./assets/IMG_3428.PNG");
+  }
 }
 
 .bgImg4 {
-  /* The image used */
-  background-image: url("./assets/IMG_4170.PNG");
-
-  /* Set a specific height */
   min-height: 500px;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media (max-width: 480px) {
+  .bgImg4 {
+    background-image: url("./assets/kauaiCove_Small.JPG");
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .bgImg4 {
+    background-image: url("./assets/kauaiCove_Small.JPG");
+  }
+}
+@media (min-width: 1025px) {
+  .bgImg4 {
+    background-image: url("./assets/IMG_4170.PNG");
+  }
+}
 
 .bgImg5 {
-  /* The image used */
-  background-image: url("./assets/IMG_3592.PNG");
-
-  /* Set a specific height */
   min-height: 500px;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media (max-width: 480px) {
+  .bgImg5 {
+    background-image: url("./assets/kauaiFlower_Small.JPG");
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .bgImg5 {
+    background-image: url("./assets/kauaiFlower_Small.JPG");
+  }
+}
+@media (min-width: 1025px) {
+  .bgImg5 {
+    background-image: url("./assets/IMG_3592.PNG");
+  }
 }
 
 .carousel-inner {
