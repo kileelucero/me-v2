@@ -1,18 +1,25 @@
-.jumbotron, .footer {
+.jumbotron,
+.footer {
   background: linear-gradient(60deg, #24aadb, #27dbb1);
   animation: gradient 16s linear infinite;
   animation-direction: alternate;
   background-size: 200% 100%;
   margin: 0;
-  text-shadow: .5px .5px black;
+  text-shadow: 0.5px 0.5px black;
 }
 
-#aboutMe, #myWork, #myMedia, #contactMe, #randomBtn, #imageView, #videoView {
+#aboutMe,
+#myWork,
+#myMedia,
+#contactMe,
+#randomBtn,
+#imageView,
+#videoView {
   background: linear-gradient(60deg, #ff0000, #dbab27);
   animation: gradient 16s linear infinite;
   animation-direction: alternate;
   background-size: 200% 100%;
-  color:azure;
+  color: azure;
   box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2), 0 6px 20px 0 rgba(8, 8, 8, 0.2);
 }
 
@@ -42,12 +49,20 @@
   .bgImg1 {
     background-image: url("./assets/KauaiEucalyptus_Small.JPG");
     min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
   .bgImg1 {
     background-image: url("./assets/KauaiEucalyptus_Small.JPG");
     min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 @media (min-width: 1025px) {
@@ -67,12 +82,20 @@
   .bgImg2 {
     background-image: url("./assets/kauaiSunset_Small.JPG");
     min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
   .bgImg2 {
     background-image: url("./assets/kauaiSunset_Small.JPG");
     min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 @media (min-width: 1025px) {
@@ -92,12 +115,20 @@
   .bgImg3 {
     background-image: url("./assets/kauaiPineapple_Small.JPG");
     min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
   .bgImg3 {
     background-image: url("./assets/kauaiPineapple_Small.JPG");
     min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 @media (min-width: 1025px) {
@@ -117,12 +148,20 @@
   .bgImg4 {
     background-image: url("./assets/kauaiCove_Small.JPG");
     min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
   .bgImg4 {
     background-image: url("./assets/kauaiCove_Small.JPG");
     min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 @media (min-width: 1025px) {
@@ -142,12 +181,20 @@
   .bgImg5 {
     background-image: url("./assets/kauaiFlower_Small.JPG");
     min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
   .bgImg5 {
     background-image: url("./assets/kauaiFlower_Small.JPG");
     min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 @media (min-width: 1025px) {
@@ -164,7 +211,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   align-content: center;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .externalLink {
@@ -175,7 +222,6 @@
 .carousel-caption {
   display: flex;
   align-self: flex-end;
-  
 }
 
 #btnContainer {
@@ -190,8 +236,9 @@
   height: auto;
 }
 
-#arrayImages, #arrayVideos {
-  border-radius: .5rem;
+#arrayImages,
+#arrayVideos {
+  border-radius: 0.5rem;
   box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2), 0 6px 20px 0 rgba(8, 8, 8, 0.2);
 }
 
@@ -205,6 +252,7 @@
   justify-content: space-evenly;
 }
 
-textarea, input {
+textarea,
+input {
   box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2), 0 6px 20px 0 rgba(8, 8, 8, 0.2);
 }
