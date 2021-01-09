@@ -41,16 +41,19 @@
 @media (max-width: 480px) {
   .bgImg1 {
     background-image: url("./assets/KauaiEucalyptus_Small.JPG");
+    min-height: 250px;
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
   .bgImg1 {
     background-image: url("./assets/KauaiEucalyptus_Small.JPG");
+    min-height: 250px;
   }
 }
 @media (min-width: 1025px) {
   .bgImg1 {
     background-image: url("./assets/bgImg.PNG");
+    min-height: 500px;
   }
 }
 
@@ -63,38 +66,44 @@
 @media (max-width: 480px) {
   .bgImg2 {
     background-image: url("./assets/kauaiSunset_Small.JPG");
+    min-height: 250px;
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
   .bgImg2 {
     background-image: url("./assets/kauaiSunset_Small.JPG");
+    min-height: 250px;
   }
 }
 @media (min-width: 1025px) {
   .bgImg2 {
     background-image: url("./assets/IMG_4303.PNG");
+    min-height: 500px;
   }
 }
 
 .bgImg3 {
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 @media (max-width: 480px) {
   .bgImg3 {
     background-image: url("./assets/kauaiPineapple_Small.JPG");
+    min-height: 250px;
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
   .bgImg3 {
     background-image: url("./assets/kauaiPineapple_Small.JPG");
+    min-height: 250px;
   }
 }
 @media (min-width: 1025px) {
   .bgImg3 {
     background-image: url("./assets/IMG_3428.PNG");
+    min-height: 500px;
   }
 }
 
@@ -107,16 +116,19 @@
 @media (max-width: 480px) {
   .bgImg4 {
     background-image: url("./assets/kauaiCove_Small.JPG");
+    min-height: 250px;
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
   .bgImg4 {
     background-image: url("./assets/kauaiCove_Small.JPG");
+    min-height: 250px;
   }
 }
 @media (min-width: 1025px) {
   .bgImg4 {
     background-image: url("./assets/IMG_4170.PNG");
+    min-height: 500px;
   }
 }
 
@@ -129,16 +141,19 @@
 @media (max-width: 480px) {
   .bgImg5 {
     background-image: url("./assets/kauaiFlower_Small.JPG");
+    min-height: 250px;
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
   .bgImg5 {
     background-image: url("./assets/kauaiFlower_Small.JPG");
+    min-height: 250px;
   }
 }
 @media (min-width: 1025px) {
   .bgImg5 {
     background-image: url("./assets/IMG_3592.PNG");
+    min-height: 500px;
   }
 }
 
